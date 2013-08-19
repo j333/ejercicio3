@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	-moz-box-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html, body {
+	max-width: 60em;
+	height:100%;
+	padding: 0 1em;
+	margin: 0 auto;
+	background: #FDFDED url(../img/background.png);
+	font: 14px/1.285 tahoma, sans-serif;
+	color: #666;
+}
+main {
+	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.75);
+	padding: 1em 4em;
+	min-height:100%;
+	position:relative;
+}
+h1 {
+	font-size: 3em;
+}
+.img-receta {
+	float: right;
+	-webkit-box-shadow: 2px 2px 10px #AAA;
+	-moz-box-shadow: 2px 2px 10px #AAA;
+	box-shadow: 2px 2px 10px #AAA;
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
+	margin: 20px 0 15px 20px;
+	padding: 10px 10px 40px;
+	height: 250px;
+	background-color: #FFF;
+}
+ol {
+	float: right;
+}
+@media (max-width: 650px) {
+	.img-receta {
+		width: 100%;
+		height: auto;
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
